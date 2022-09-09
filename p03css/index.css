@@ -1,0 +1,63 @@
+
+
+body {
+    width: 100%;
+    height:100px;
+    display:grid;
+    place-items: center;
+
+  
+    
+    
+   
+}
+
+table{
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+
+   
+}
+th{
+    background-color: #B7C4CF;
+}
+th:hover{
+    background-color: aquamarine;
+    transform: scale(1);
+}
+tr:nth-child(odd){
+    background-color:aqua ;
+
+}
+tr:nth-child(odd):hover{
+    background-color: aquamarine;
+    transform: scale(1);
+}
+tr:nth-child(even){
+    background-color:#A5F1E9;
+}
+tr:nth-child(even):hover{
+    background-color:  #B7C4CF;
+    transform: scale(1);
+}
+.hapus:nth-child(odd){
+    background-color: red;
+    color: white;
+   
+}
+.hapus:nth-child(odd):hover{
+    background-color:blue;
+    transform: scale(1);
+
+}
+.edit:nth-child(even){
+    background-color:green ;
+    color: white;
+}
+.edit:nth-child(even):hover{
+    background-color: #B7C4CF;
+    transform: scale(1);
+    color: black;
+}
