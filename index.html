@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web</title>
+    <style>
+        body{
+            margin-top: 10%;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 0,1rem solid grey;
+            box-shadow: 1px 1px 4px #483838;
+            transition:0.1s;
+        }
+        img:hover{
+            transform: scale(1.2);
+            box-shadow: 1px 1px 6px aqua;
+        }
+        .pemrograman{
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h3 {
+            background-image: linear-gradient(to right,black,red,blue, rgb(150,6,6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        h3:hover{
+            letter-spacing: 3px;
+        }
+        
+        .kiri{
+         margin-right: 20%;
+         background: green;
+         border-radius: 25px;
+         padding: 10px;
+         color: white;
+         margin-top: -3%;
+        }
+        .kiri:hover{
+            background: yellowgreen;
+            transform: scale(1);
+            color: black;
+
+        }
+        .tengah{
+        margin-bottom: 0;
+        background: green;
+         border-radius: 25px;
+         padding: 10px;
+         color: white;
+         margin-top: -3%;
+        }
+        .tengah:hover{
+            background: yellowgreen;
+            transform: scale(1);
+            color: black;
+
+
+        }
+        .kanan{
+         margin-left: 20%;
+         background: green;
+         border-radius: 25px;
+         padding: 10px;
+         color: white;
+         margin-top: 3%;
+            
+        }
+        .kanan:hover{
+            background: yellowgreen;
+            transform: scale(1);
+            color: black;
+        }
+       
+       
+
+    </style>
+</head>
+<body>
+    <div class="pemrograman">
+      <img src="poto.jpeg">
+      <h3>Rizki Ramdani_41215594</h3>
+      <h2>Tentang Saya</h2>
+      <ul>
+        <li>email:riskiram122@gmail.com</li>
+        <li>Tempat Lahir:Kabupaten Ciamis</li>
+        <li>Tanggal Lahir:04-12-2002</li>
+      </ul>
+      <a class="kanan"  onclick="alert('Kamu mau masuk?')" href="p03css/tugas.html">Masuk</a>
+      <a class="tengah" onclick="alert('Kamu mau masuk?')" href="p03jquery/index.html">Masuk</a>
+      <a class="kiri" onclick="alert('Kamu mau masuk?')" href="p03/index2.html">Masuk</a>
+     
+
+  
+    </div>
+   
+</body>
+</html>
