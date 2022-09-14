@@ -1,0 +1,48 @@
+body{
+width:100%;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.awal{
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+legend{
+color: rgb(58, 14, 14);
+}
+.oreg{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.oreg :hover{
+    color: red;
+    transform: scale();
+}
+.tempe{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+
+
+.tahu :hover{
+    color: grey;
+    transition: 1s;
+}
+select:hover {
+    background-color: grey;
+    transition: 1s;
+  }
+ 
+.date:hover{
+    background-color:aqua;
+    transition: 1s;
+}
+
+
+
+.number:hover{
+    background-color:gray;
+    transition: 1s;
+}
