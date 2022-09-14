@@ -1,0 +1,63 @@
+@font-face {
+    font-family: sans-serif;
+    src: url();
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 12.5px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  legend{
+    color: color: RGB (0, 255, 254);
+  }
+  .tempe :hover{
+    color: red;
+    transform: scale();   
+  }
+  
+  h5{
+      color: red;
+  }
+  a {
+      color: rgb(24, 89, 89);
+      text-decoration: none;
+  }
+  
+  img{
+      width: 100%;
+      height: auto;
+      background-color: rgb(114, 133, 9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  select:hover {
+    background-color: grey;
+    transition: 1s;
+    }
+    .tahu{
+        color: grey;
+        transition: 1s;
+    }
+    .number:hover{
+        background-color:gray;
+        transition: 1s;
+    }
+    .date:hover{
+        background-color:aqua;
+        transition: 1s
+    }
+    
+    @media screen and (max-width:680px){
+      #maincontent{
+        width: auto;
+        float: none;
+      }
+      #sidebar{
+        width: auto;
+        float: none;
+      }
+    }
